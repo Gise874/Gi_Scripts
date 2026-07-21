@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Page</title>
+</head>
+<body>
+ 
+    <h1>Employee Information</h1>
+ 
+    <div>
+        <p><strong>Name:</strong> John Smith</p>
+        <p><strong>Department:</strong> IT</p>
+        <p><strong>Employee ID:</strong> 1001</p>
+    </div>
+ 
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+ 
+    <script>
+        function showMessage() {
+            alert("HTML5 test page loaded successfully.");
+        }
+    </script>
+ 
+</body>
+</html>
